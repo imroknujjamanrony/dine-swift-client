@@ -10,10 +10,8 @@ import slider5 from "../../assets/home/slide5.jpg";
 import "swiper/css";
 import "swiper/css/pagination";
 
-// import "./styles.css";
-
-// import required modules
 import { Pagination } from "swiper/modules";
+import SectionTitle from "../../components/shared/SectionTitle";
 const Category = () => {
   const categoryImages = [
     { src: slider1, id: 1, name: "SALADS" },
@@ -23,7 +21,11 @@ const Category = () => {
     { src: slider5, id: 5, name: "PASTA" },
   ];
   return (
-    <>
+    <section>
+      <SectionTitle
+        subheading={"---From 11.00am to 10.00pm---"}
+        heading={"ORDER ONLINE"}
+      />
       <Swiper
         slidesPerView={5}
         spaceBetween={30}
@@ -32,7 +34,7 @@ const Category = () => {
           clickable: true,
         }}
         modules={[Pagination]}
-        className="mySwiper"
+        className="mySwiper mb-8"
       >
         {categoryImages.map((categoryImg) => (
           <SwiperSlide
@@ -54,7 +56,7 @@ const Category = () => {
           </SwiperSlide>
         ))}
       </Swiper>
-    </>
+    </section>
   );
 };
 
