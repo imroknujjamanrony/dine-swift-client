@@ -125,5 +125,3 @@ const Testimonials = () => {
 };
 
 export default Testimonials;
-
-//added new line at the end of the file
