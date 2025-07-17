@@ -15,7 +15,7 @@ const Home = () => {
       <Popularmenu></Popularmenu>
       <RecommendItem></RecommendItem>
       <Featured></Featured>
-      <h1>hello bangladesh</h1>
+
       <Testimonials></Testimonials>
     </div>
   );
