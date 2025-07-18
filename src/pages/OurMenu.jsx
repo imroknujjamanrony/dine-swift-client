@@ -10,6 +10,12 @@ const OurMenu = () => {
         subHeading={"would you like to try a dish"}
       ></Cover>
       <h1>hello from our menu page.</h1>
+      <Cover
+        coverBg={ourMenuCover1}
+        heading={"our menu"}
+        subHeading={"would you like to try a dish"}
+      ></Cover>
+      <h1>hello from our menu page.</h1>
     </div>
   );
 };
