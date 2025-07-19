@@ -1,5 +1,6 @@
-import Cover from "./shared/Cover";
-import ourMenuCover1 from "../assets/menu//banner3.jpg";
+import Cover from "../shared/Cover";
+import ourMenuCover1 from "../../assets/menu/banner3.jpg";
+import TodaysOffer from "./TodaysOffer";
 
 const OurMenu = () => {
   return (
@@ -9,7 +10,7 @@ const OurMenu = () => {
         heading={"our menu"}
         subHeading={"would you like to try a dish"}
       ></Cover>
-      <h1>hello from our menu page.</h1>
+      <TodaysOffer></TodaysOffer>
     </div>
   );
 };

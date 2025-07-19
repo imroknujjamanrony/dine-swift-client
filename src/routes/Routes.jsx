@@ -4,7 +4,7 @@ import MainLayout from "../layout/MainLayout";
 import Signup from "../pages/authpage/Signup";
 import Signin from "../pages/authpage/Signin";
 import Home from "../pages/home/Home";
-import OurMenu from "../pages/OurMenu";
+import OurMenu from "../pages/our-menu/OurMenu";
 
 const router = createBrowserRouter([
   {
