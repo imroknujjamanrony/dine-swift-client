@@ -9,6 +9,11 @@ const Dessert = () => {
         heading={"/Desserts"}
         subHeading={"dessert"}
       ></Cover>
+      <Cover
+        coverBg={coverBg2}
+        heading={"/Desserts"}
+        subHeading={"dessert"}
+      ></Cover>
     </div>
   );
 };
