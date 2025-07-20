@@ -1,6 +1,7 @@
 import Cover from "../shared/Cover";
 import ourMenuCover1 from "../../assets/menu/banner3.jpg";
 import TodaysOffer from "./TodaysOffer";
+import Dessert from "./Dessert";
 
 const OurMenu = () => {
   return (
@@ -11,6 +12,7 @@ const OurMenu = () => {
         subHeading={"would you like to try a dish"}
       ></Cover>
       <TodaysOffer></TodaysOffer>
+      <Dessert></Dessert>
     </div>
   );
 };
