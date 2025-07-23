@@ -22,7 +22,7 @@ const TodaysOffer = () => {
         heading={"todays offer"}
         subheading={"don't miss"}
       ></SectionTitle>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
+      <div className="w-11/12 mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
         {offers.map((item) => (
           <MenuItemCard key={item._id} item={item}></MenuItemCard>
         ))}
