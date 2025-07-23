@@ -2,6 +2,7 @@ import Cover from "../shared/Cover";
 import ourMenuCover1 from "../../assets/menu/banner3.jpg";
 import TodaysOffer from "./TodaysOffer";
 import Dessert from "./Dessert";
+import Pizza from "./Pizza";
 
 const OurMenu = () => {
   return (
@@ -13,6 +14,7 @@ const OurMenu = () => {
       ></Cover>
       <TodaysOffer></TodaysOffer>
       <Dessert></Dessert>
+      <Pizza></Pizza>
     </div>
   );
 };
