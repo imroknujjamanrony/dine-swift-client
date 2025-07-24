@@ -4,6 +4,7 @@ import TodaysOffer from "./TodaysOffer";
 import Dessert from "./Dessert";
 import Pizza from "./Pizza";
 import Salad from "./Salad";
+import Soups from "./Soups";
 
 const OurMenu = () => {
   return (
@@ -17,6 +18,7 @@ const OurMenu = () => {
       <Dessert></Dessert>
       <Pizza></Pizza>
       <Salad></Salad>
+      <Soups></Soups>
     </div>
   );
 };
