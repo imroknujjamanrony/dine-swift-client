@@ -51,6 +51,10 @@ const Contact = () => {
             </div>
           </div>
         </div>
+        <SectionTitle
+          heading={"send us a message"}
+          subheading={"contact form"}
+        ></SectionTitle>
       </div>
     </div>
   );
