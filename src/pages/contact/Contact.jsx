@@ -118,6 +118,8 @@ const Contact = () => {
             </button>
           </div>
         </form>
+        {/* now i have to do the part of functionality */}
+        <button className="btn btn-dash ">Rony</button>
       </div>
     </div>
   );
