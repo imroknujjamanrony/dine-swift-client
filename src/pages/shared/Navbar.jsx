@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
+  const user = false;
   //   const links = (
   //     <>
   //       <li>
@@ -70,7 +71,11 @@ const Navbar = () => {
         <ul className="menu menu-horizontal px-1">{links}</ul>
       </div>
       <div className="navbar-end">
-        <span className="btn btn-success">Rony</span>
+        {user && user ? (
+          <span className="btn btn-success">logout</span>
+        ) : (
+          <span className="btn btn-success">Login</span>
+        )}
       </div>
     </div>
   );
