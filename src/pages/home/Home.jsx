@@ -16,6 +16,13 @@ const Home = () => {
       <RecommendItem></RecommendItem>
       <Featured></Featured>
       <h1>roknujjaman rony</h1>
+      <h1>roknujjaman rony</h1>
+      <h1>roknujjaman rony</h1>
+      <h1>roknujjaman rony</h1>
+      <h1>roknujjaman rony</h1>
+      <h1>roknujjaman rony</h1>
+      <h1>roknujjaman rony</h1>
+      <h1>roknujjaman rony</h1>
       <Testimonials></Testimonials>
     </div>
   );
